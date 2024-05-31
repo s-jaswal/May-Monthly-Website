@@ -15,8 +15,14 @@ h1 {
     text-align: center;
     color: white;
     margin-bottom: 20px;
+    font-size: 80px;  
+    text-shadow: 4px 4px 4px gray; 
+    font-family: "Poetsen One", sans-serif;
+
 }
 
 body {
-    background: black;
+    background-image: url("backgroundimage.jpg");
+    font-family: "Sofia", sans-serif;
+    
 }
