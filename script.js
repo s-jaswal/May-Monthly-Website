@@ -1,7 +1,7 @@
 const teamMembers = [
     {
         name: 'The Brain',
-        imageURL: 'brain.jpg',
+        imageURL: 'Images Folder/brain.jpg',
         activelyPlaying: true,
         type: 'Color Fairy',
         skills: ['Using magic', 'Being joyful', 'Playing with Rachel & Kristy'],
@@ -11,7 +11,7 @@ const teamMembers = [
     },
     {
         name: 'The Heart',
-        imageURL: 'heart.webp',
+        imageURL: 'Images Folder/heart.webp',
         type: 'Animal Fairy',
         skills: ['Communicating with animals', 'Cat whispering', 'Playing with Rachel & Kristy'],
         strengths: 'Animals',
@@ -20,7 +20,7 @@ const teamMembers = [
     },
     {
         name: 'The Lungs',
-        imageURL: 'lungs.jpg',
+        imageURL: 'Images Folder/lungs.jpg',
         type: 'Color Fairy',
         skills: ['Spreading happiness', 'Coloring the world red', 'Playing with Rachel & Kristy'],
         strengths: 'Bringing joy and color',
@@ -28,8 +28,8 @@ const teamMembers = [
         biography: 'Ruby is a fairy who loves the color red and has the magical ability to spread happiness wherever she goes.'
     },
     {
-        name: 'The Liver',
-        imageURL: 'liver.jpg',
+        name: 'The Kidneys',
+        imageURL: 'Images Folder/kidneys.jpg',
         type: 'Flower Fairy',
         skills: ['Tending to poppies', 'Bringing color to gardens', 'Playing with Rachel & Kristy'],
         strengths: 'Flowers and gardening',
@@ -37,8 +37,8 @@ const teamMembers = [
         biography: 'Pippa is a fairy who loves poppies and has a special bond with them, bringing vibrant color to every garden she visits.'
     },
     {
-        name: 'The Kidneys',
-        imageURL: 'kidneys.jpg',
+        name: 'The Liver',
+        imageURL: 'Images Folder/liver.jpg',
         type: 'Talent Fairy',
         skills: ['Baking delicious treats', 'Decorating cakes', 'Playing with Rachel & Kristy'],
         strengths: 'Baking and confectionery',
@@ -46,26 +46,8 @@ const teamMembers = [
         biography: 'Roxie is a fairy who loves baking and has a special talent for creating the most delightful treats, spreading joy with her delicious creations.'
     },
     {
-        name: 'The Pancreas',
-        imageURL: 'pancreas.jpg',
-        type: 'Music Fairy',
-        skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
-        strengths: 'Music and creativity',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Ellie is a fairy who loves playing the guitar and has a special talent for composing beautiful music, bringing harmony and joy wherever she goes.'
-    },
-    {
         name: 'The Skin',
-        imageURL: 'skin.jpg',
-        type: 'Music Fairy',
-        skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
-        strengths: 'Music and creativity',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Ellie is a fairy who loves playing the guitar and has a special talent for composing beautiful music, bringing harmony and joy wherever she goes.'
-    },
-    {
-        name: 'The Stomach',
-        imageURL: 'stomach.avif',
+        imageURL: 'Images Folder/skin.jpg',
         type: 'Music Fairy',
         skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
         strengths: 'Music and creativity',
@@ -74,7 +56,16 @@ const teamMembers = [
     },
     {
         name: 'The Bone Marrow',
-        imageURL: 'bone marrow.jpg',
+        imageURL: 'Images Folder/bone marrow.jpg',
+        type: 'Music Fairy',
+        skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
+        strengths: 'Music and creativity',
+        weaknesses: 'Jack Frost & his Goblins',
+        biography: 'Ellie is a fairy who loves playing the guitar and has a special talent for composing beautiful music, bringing harmony and joy wherever she goes.'
+    },
+    {
+        name: 'The Stomach',
+        imageURL: 'Images Folder/stomach.avif',
         type: 'Music Fairy',
         skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
         strengths: 'Music and creativity',
@@ -83,13 +74,22 @@ const teamMembers = [
     },
     {
         name: 'The Veins',
-        imageURL: 'veins.webp',
+        imageURL: 'Images Folder/veins.webp',
         type: 'Music Fairy',
         skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
         strengths: 'Music and creativity',
         weaknesses: 'Jack Frost & his Goblins',
         biography: 'Ellie is a fairy who loves playing the guitar and has a special talent for composing beautiful music, bringing harmony and joy wherever she goes.'
     },
+    {
+        name: 'The Pancreas',
+        imageURL: 'Images Folder/pancreas.jpg',
+        type: 'Music Fairy',
+        skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
+        strengths: 'Music and creativity',
+        weaknesses: 'Jack Frost & his Goblins',
+        biography: 'Ellie is a fairy who loves playing the guitar and has a special talent for composing beautiful music, bringing harmony and joy wherever she goes.'
+    }
 ];
 
 function generateTeamCards() {
@@ -125,22 +125,22 @@ function generateTeamCards() {
             .map(skill => `<li>${skill}</li>`).join('');
 
         card.innerHTML = `
-          <div class="card">
-              <img src="${member.imageURL}" class="img-fluid team-member-image" alt="${member.name}">
-              <div class="card-header">${member.name}</div>
-              <div class="card-body">
-                  <p><strong>Type:</strong> ${member.type}</p>
-                  <p><strong>Skills:</strong> 
-                      <ul>
-                          ${skillsList}
-                      </ul>
-                  </p>
-                  <p><strong>Strengths:</strong> ${member.strengths}</p>
-                  <p><strong>Weaknesses:</strong> ${member.weaknesses}</p>
-                  <p><strong>Biography:</strong> ${member.biography}</p>
-              </div>
-          </div>
-      `;
+            <div class="card">
+                <img src="${member.imageURL}" class="img-fluid team-member-image" alt="${member.name}">
+                <div class="card-header">${member.name}</div>
+                <div class="card-body">
+                    <p><strong>Type:</strong> ${member.type}</p>
+                    <p><strong>Skills:</strong> 
+                        <ul>
+                            ${skillsList}
+                        </ul>
+                    </p>
+                    <p><strong>Strengths:</strong> ${member.strengths}</p>
+                    <p><strong>Weaknesses:</strong> ${member.weaknesses}</p>
+                    <p><strong>Biography:</strong> ${member.biography}</p>
+                </div>
+            </div>
+        `;
 
         teamCardsContainer.appendChild(card);
     });

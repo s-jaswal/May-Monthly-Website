@@ -1,29 +1,34 @@
 .team-member-image {
-    width: 100%;
-    /* Makes the image take the full width of the container */
-    height: auto;
-    /* Maintains the aspect ratio */
-    max-height: 300px;
-    /* Adjust this to fit your design */
-    object-fit: cover;
-    /* Ensures the image covers the area while maintaining aspect ratio */
-    margin-bottom: 15px;
-    /* Optional: adds some space below the image */
+    width: 100%; /* Makes the image take the full width of the container */
+    height: auto; /* Maintains the aspect ratio */
+    max-height: 300px; /* Adjust this to fit your design */
+    object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+    margin-bottom: 15px; /* Optional: adds some space below the image */
 }
-
-h1 {
+ h1 {
     text-align: center;
     color: white;
-    margin-bottom: 20px;
-    font-size: 80px;
-    text-shadow: 4px 4px 4px gray;
-    font-family: "Poetsen One", sans-serif;
-    background-color: black;
-}
+    margin-bottom:5px;
+    font-family: "Vast Shadow", serif;
+    font-weight: 900;
+    font-style: normal;
+ }
 
-body {
-    background-image: url("backgroundimage.jpg");
-    /* Ensure this path is correct */
+ h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
     font-family: "Sofia", sans-serif;
-   
-}
+ }
+ h3 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    font-family: "Sofia", sans-serif;
+ }
+
+ body {
+    background-color: black;
+    font-family: "Sofia", sans-serif;
+
+ }
