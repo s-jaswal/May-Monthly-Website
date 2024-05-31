@@ -15,14 +15,15 @@ h1 {
     text-align: center;
     color: white;
     margin-bottom: 20px;
-    font-size: 80px;  
-    text-shadow: 4px 4px 4px gray; 
+    font-size: 80px;
+    text-shadow: 4px 4px 4px gray;
     font-family: "Poetsen One", sans-serif;
-
+    background-color: black;
 }
 
 body {
     background-image: url("backgroundimage.jpg");
+    /* Ensure this path is correct */
     font-family: "Sofia", sans-serif;
-    
+   
 }
