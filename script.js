@@ -3,92 +3,92 @@ const teamMembers = [
         name: 'The Brain',
         imageURL: 'Images Folder/brain.jpg',
         activelyPlaying: true,
-        type: 'Color Fairy',
-        skills: ['Using magic', 'Being joyful', 'Playing with Rachel & Kristy'],
-        strengths: 'Creating the color Orange',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Amber is a cheerful fairy who loves to spread joy and color.'
+        type: 'Learning Machine',
+        skills: ['Processing information', 'Solving problems', 'Adapting to new situations'],
+        strengths: 'Making complex connections', 
+        weaknesses: 'Susceptible to injury',
+        biography: 'The brain is the most complex organ in the human body. It controls everything we do, from thinking and feeling to moving and learning.'
     },
     {
         name: 'The Heart',
         imageURL: 'Images Folder/heart.webp',
-        type: 'Animal Fairy',
-        skills: ['Communicating with animals', 'Cat whispering', 'Playing with Rachel & Kristy'],
-        strengths: 'Animals',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Katie is a fairy who loves kittens and has a special bond with them.'
+        type: 'Vital Organ',
+        skills: ['Pumping blood', 'Regulating Blood Flow', 'Sending electrical signals'],
+        strengths: 'Endurance',
+        weaknesses: 'Can be affected by stress', 
+        biography: 'The heart is a muscular organ that plays a vital role in the circulator system.It pumps blood throughout the body, delivering oxygen and nutrients to cells and removing waste products.'
     },
     {
         name: 'The Lungs',
         imageURL: 'Images Folder/lungs.jpg',
-        type: 'Color Fairy',
-        skills: ['Spreading happiness', 'Coloring the world red', 'Playing with Rachel & Kristy'],
-        strengths: 'Bringing joy and color',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Ruby is a fairy who loves the color red and has the magical ability to spread happiness wherever she goes.'
+        type: 'Respiratory Organ',
+        skills: ['Gas exchange', 'Breathing', 'Maintaining Plood PH'],
+        strengths: 'Adaptability',
+        weaknesses: 'Poluution and Smoke',
+        biography: 'The lungs are a pair of spongy organs that play a vital role in respiration. They take oxygen from the air we breather and release carbon dioxide, a waste product, from our bodies.'
     },
     {
         name: 'The Kidneys',
         imageURL: 'Images Folder/kidneys.jpg',
-        type: 'Flower Fairy',
-        skills: ['Tending to poppies', 'Bringing color to gardens', 'Playing with Rachel & Kristy'],
-        strengths: 'Flowers and gardening',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Pippa is a fairy who loves poppies and has a special bond with them, bringing vibrant color to every garden she visits.'
+        type: 'Excretory Organ',
+        skills: ['Filtering blood', 'Removing waste', 'Maintaining water balance'],
+        strengths: 'Filtration',
+        weaknesses: 'Disease and Toxins',
+        biography: 'The Kidneys are two bean-shaped organs that play a vital role in the excretory system. They filter waste products from the blood, regulate body fluids, and produce hormones.'
     },
     {
         name: 'The Liver',
         imageURL: 'Images Folder/liver.jpg',
-        type: 'Talent Fairy',
-        skills: ['Baking delicious treats', 'Decorating cakes', 'Playing with Rachel & Kristy'],
-        strengths: 'Baking and confectionery',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Roxie is a fairy who loves baking and has a special talent for creating the most delightful treats, spreading joy with her delicious creations.'
+        type: 'Digestive Organ',
+        skills: ['Filtering blood', 'Processing nutrients', 'Making proteins'],
+        strengths: 'Essential for metabolism and Nutrient storage',
+        weaknesses: 'Injury and Toxins',
+        biography: 'The liver is the largest and most complex organ in the body. It plays a vital role in digestion, metabolism, and detoxification. The liver filters harmful substances from the blood and processes nutrients from food. '
     },
     {
         name: 'The Skin',
         imageURL: 'Images Folder/skin.jpg',
-        type: 'Music Fairy',
-        skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
-        strengths: 'Music and creativity',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Ellie is a fairy who loves playing the guitar and has a special talent for composing beautiful music, bringing harmony and joy wherever she goes.'
+        type: 'Protective Barrier',
+        skills: ['Protection from injury', 'Sensation', 'Temperature regulation'],
+        strengths: 'Durability and Disease prevention',
+        weaknesses: 'Sun Damage and Dehydration',
+        biography: 'The skin is the largest organ of the body. It acts as a protective barrier against the environment and helps regulate body temperature.'
     },
     {
         name: 'The Bone Marrow',
         imageURL: 'Images Folder/bone marrow.jpg',
-        type: 'Music Fairy',
-        skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
-        strengths: 'Music and creativity',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Ellie is a fairy who loves playing the guitar and has a special talent for composing beautiful music, bringing harmony and joy wherever she goes.'
+        type: 'Blood Cell Factory',
+        skills: ['Making blood cells', 'Storing Fat', 'Supporting the immune system'],
+        strengths: 'Production and Versatility',
+        weaknesses: 'Disease and Injury',
+        biography: 'The bone marrow is a spongy tissue found inside some of your bones. It has the important job of producing red blood cells, white blood cells, and platelets, all essential for keeping you healthy.'
     },
     {
         name: 'The Stomach',
         imageURL: 'Images Folder/stomach.avif',
-        type: 'Music Fairy',
-        skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
-        strengths: 'Music and creativity',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Ellie is a fairy who loves playing the guitar and has a special talent for composing beautiful music, bringing harmony and joy wherever she goes.'
+        type: 'Muscular Sac',
+        skills: ['Breaking down food', 'Storing food', 'Starting digestion'],
+        strengths: 'Muechanical breakdwon and Acid production',
+        weaknesses: 'Ulcers and Inflammation',
+        biography: 'The stomach is a muscular sac-like organ that is part of the digestive system. it breaks down food.'
     },
     {
         name: 'The Veins',
         imageURL: 'Images Folder/veins.webp',
-        type: 'Music Fairy',
-        skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
-        strengths: 'Music and creativity',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Ellie is a fairy who loves playing the guitar and has a special talent for composing beautiful music, bringing harmony and joy wherever she goes.'
+        type: 'Blood Vessel Network',
+        skills: ['Carrying blood back to the heart', 'Helping regulate blood pressure',],
+        strengths: 'Transport and Capacity',
+        weaknesses: 'Varicosr veins and Blood clots',
+        biography: 'The veins are a network of vessels that carry blood back to the heart. They have thinner walls than arteries and valves that help keep blood flowing in the right direction.'
     },
     {
         name: 'The Pancreas',
         imageURL: 'Images Folder/pancreas.jpg',
-        type: 'Music Fairy',
-        skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
-        strengths: 'Music and creativity',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Ellie is a fairy who loves playing the guitar and has a special talent for composing beautiful music, bringing harmony and joy wherever she goes.'
+        type: 'Dual-Function Gland',
+        skills: ['Digesting food with enzymes', 'Regulating blood sugar with hormones',],
+        strengths: 'Essential for digestion and Blood sugar control',
+        weaknesses: 'Pancreatitis and Certain diseases',
+        biography: 'The pancreas is a gland that sits behind your stomach. It has two important jobs.'
     }
 ];
 
